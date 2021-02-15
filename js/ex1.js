@@ -20,4 +20,4 @@ function calculator() {
    document.getElementById("example").innerHTML = text;
   }
  
-  console.log(calculator)
+  console.log(calculator())
