@@ -25,7 +25,7 @@ function guessNumber() {
       console.log(`Correct! It took you ${guessCount} attempt(s) to guess the correct number`);
   }
 
-  }
+  } 
 }
 // call the function
-guessNumber();
+guessNumber(); 
