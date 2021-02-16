@@ -1,5 +1,4 @@
-/* Random Number */
-
+/* Guess the Number */
 
 let guessCount = 1
 function guessNumber() {
