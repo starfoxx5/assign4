@@ -14,4 +14,4 @@ while (word !== "stop") {
 console.log("You have entered the following words:");
 words.forEach(w => {
   console.log(w);
-});
+}); 
