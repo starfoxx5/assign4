@@ -1,12 +1,6 @@
-/*
-Word analysis
-*/
+/* Vowels & Palindrome */
 
 const word = prompt("Enter a word:");
-
-console.log(`The word ${word} is ${word.length} characters long`);
-console.log(`Its lowercase value is ${word.toLowerCase()}`);
-console.log(`Its uppercase value is ${word.toUpperCase()}`);
 
 let vowelCount = 0;
 let backwardWord = "";
@@ -27,8 +21,11 @@ let backwardWord = "";
   backwardWord = letter + backwardWord;
 });
 
-console.log(`It has ${vowelCount} vowels`);
-console.log(`Its backwards value is ${backwardWord}`);
+// Output
+console.log(`The word (${word}) has ${vowelCount} vowel(s)`);
+console.log(`Your word written backwards is ${backwardWord}`);
 if (word.toLowerCase() === backwardWord.toLowerCase()) {
-  console.log("It's a palindrome");
+  console.log("It's a palindrome");}
+else { 
+  console.log("It's not a palindrome")
 }
