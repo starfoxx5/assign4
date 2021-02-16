@@ -11,11 +11,8 @@ while (word !== "stop") {
   }
 }
 
-if (words[0] === words.toLowerCase(stop)){
-  console.log("You didn't enter any words");
-}
-else{
+
 console.log("You have entered the following words:");
 words.forEach(w => {
   console.log(w);
-})};  
+});  
