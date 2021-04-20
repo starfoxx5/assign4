@@ -4,14 +4,14 @@ const values = [3, 11, 7, 2, 9, 10];
 
 let sum = 0;
 
-// Solution using a forEach method
-values.forEach(value => {
+// Solution for 'sum' using a forEach method
+values.forEach((value) => {
   sum += value;
 });
 
-console.log(sum);
+console.log(`The sum of the array values is ${sum}`);
 
-// Solution using for loop
+// Solution for 'max' using for loop
 let max = values[0];
 
 // First index is 1 since max starts with value at index 0
@@ -21,9 +21,9 @@ for (let i = 1; i < values.length; i++) {
   }
 }
 
-console.log(max);
+console.log(`The max value in the array is ${max}`);
 
-//Solution using for loop
+//Solution for 'min' using for loop
 let min = values[0];
 
 // First index is 1 since min starts with value at index 0
@@ -32,4 +32,4 @@ for (let i = 1; i > values.length; i++) {
     min = values[i];
   }
 }
-console.log(min);
+console.log(`The min value in the array is ${min}`);
